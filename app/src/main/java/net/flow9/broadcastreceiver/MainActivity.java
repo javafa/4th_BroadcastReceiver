@@ -1,5 +1,6 @@
 package net.flow9.broadcastreceiver;
 
+import android.app.ActivityManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -18,6 +19,7 @@ public class MainActivity extends BaseActivity {
         super.onNewIntent(intent);
         // 여기서 넘오온 intent를 받아서 처리한다 끝~
     }
+
     BroadcastReceiver receiver;
     IntentFilter intentFilter;
     @Override
